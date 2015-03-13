@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QGraphicsView" name="ma_vue1">
+   <widget class="QGraphicsView" name="b_1_1">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -24,7 +24,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2">
+   <widget class="QGraphicsView" name="b_1_2">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -34,7 +34,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue3">
+   <widget class="QGraphicsView" name="b_1_3">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -44,7 +44,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue4">
+   <widget class="QGraphicsView" name="b_1_4">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -54,7 +54,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_4">
+   <widget class="QGraphicsView" name="b_1_5">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -64,7 +64,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_5">
+   <widget class="QGraphicsView" name="b_2_5">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -74,7 +74,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_6">
+   <widget class="QGraphicsView" name="b_3_3">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -84,7 +84,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_7">
+   <widget class="QGraphicsView" name="b_3_5">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -94,7 +94,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue_2">
+   <widget class="QGraphicsView" name="b_3_1">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -104,7 +104,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_8">
+   <widget class="QGraphicsView" name="b_3_4">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -114,7 +114,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_9">
+   <widget class="QGraphicsView" name="b_3_2">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -124,7 +124,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_10">
+   <widget class="QGraphicsView" name="b_4_3">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -134,7 +134,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_11">
+   <widget class="QGraphicsView" name="b_4_5">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -144,7 +144,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue_3">
+   <widget class="QGraphicsView" name="b_4_1">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -154,7 +154,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_12">
+   <widget class="QGraphicsView" name="b_4_4">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -164,7 +164,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_13">
+   <widget class="QGraphicsView" name="b_4_2">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -174,7 +174,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_14">
+   <widget class="QGraphicsView" name="b_2_3">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -184,7 +184,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_15">
+   <widget class="QGraphicsView" name="b_2_4">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -194,7 +194,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_16">
+   <widget class="QGraphicsView" name="b_2_2">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -204,7 +204,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue_4">
+   <widget class="QGraphicsView" name="b_2_1">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -214,7 +214,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_17">
+   <widget class="QGraphicsView" name="b_5_2">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -224,7 +224,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_18">
+   <widget class="QGraphicsView" name="b_5_4">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -234,7 +234,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_19">
+   <widget class="QGraphicsView" name="b_5_5">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -244,7 +244,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue_5">
+   <widget class="QGraphicsView" name="b_1_6">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -254,7 +254,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QGraphicsView" name="ma_vue2_20">
+   <widget class="QGraphicsView" name="b_5_3">
     <property name="geometry">
      <rect>
       <x>150</x>
