@@ -3,6 +3,7 @@
 #include <QPixmap>
 #include <QGraphicsPixmapItem>
 #include <QGraphicsScene>
+#include "piece.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -10,28 +11,25 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    // Déclaration bloc croix
-    QPixmap * image_croix = new QPixmap (":/croix.jpg");
-    QGraphicsPixmapItem * item_croix = new QGraphicsPixmapItem(* image_croix);
-    QGraphicsScene * scene_croix = new QGraphicsScene();
-    scene_croix -> addItem(item_croix);
+    QGraphicsScene * ma_scene = new QGraphicsScene();
 
-    // Déclaration bloc rond
-    QPixmap * image_rond = new QPixmap (":/rond.jpg");
-    QGraphicsPixmapItem * item_rond = new QGraphicsPixmapItem(* image_rond);
-    QGraphicsScene * scene_rond = new QGraphicsScene();
-    scene_rond -> addItem(item_rond);
+    piece * plateau[5][5];
 
-    // Declaration bloc blanc
-    QPixmap * coul_blanc = new QPixmap ();
-    QGraphicsPixmapItem * bloc_blanc = new QGraphicsPixmapItem(* coul_blanc);
-    QGraphicsScene * scene_blanc = new QGraphicsScene();
-    scene_blanc -> addItem(bloc_blanc);
+    QPixmap * img_rond = new QPixmap(":/rond.jpg");
+    QPixmap * img_croix = new QPixmap(":/croix.jpg");
+    QPixmap * img_blanc = new QPixmap(":/blanc.jpg");
 
-    // Répétition des scène
-    ui->b_1_1->setScene(scene_blanc);
-    ui->b_1_2->setScene(scene_croix);
-    ui->b_1_3->setScene(scene_rond);
+    for (int i = 0; i<5; i++)
+      {
+        for (int j = 0; j<5; j++)
+          {
+            plateau[i][j] = new piece();
+            plateau[i][j]->setPixmap(* img_blanc);
+            ma_scene->addItem(plateau[i][j]);
+            plateau[i][j]->setPos(i*43,j*43);
+            ui->ma_vue->setScene(ma_scene);
+          }
+      }
 }
 MainWindow::~MainWindow()
 {

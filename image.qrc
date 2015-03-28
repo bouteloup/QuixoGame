@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
+        <file>blanc.jpg</file>
         <file>croix.jpg</file>
         <file>rond.jpg</file>
     </qresource>
